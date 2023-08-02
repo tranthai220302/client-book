@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.list_item{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.button{
+    display: flex;
+    gap: 800px;
+    position: absolute;
+    top: 2050px;
+}
+.img{
+    cursor: pointer;
+}

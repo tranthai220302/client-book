@@ -1,0 +1,77 @@
+
+.banner{
+    background-image: url("../../public/1.jpg");
+    background-position: 0px 0px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box_left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title{
+    width: 35%;
+    color: white;
+    font-size: 40px;
+}
+.description{
+    color: white;
+    width: 70%;
+}
+.button{
+    width: 18%;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+.button:hover{
+    background-color: rgba(1, 1, 1, 0.6);
+}
+
+.img_logo {
+    margin:0px 10px;
+    animation :animation 3s infinite linear;
+    height: 300px;
+    width: 100px;
+    border-radius: 30px; 
+}
+
+
+.img_logo:nth-child(1)
+{
+    animation-delay: 0.5s;
+    
+}
+.img_logo:nth-child(2)
+{
+    animation-delay: 1s;
+}
+@keyframes animation {
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+.box_right{
+    display: flex;
+    gap: 20px;
+}
+.dow{
+    position:absolute;
+    bottom:-40px;
+    left:50%;
+    transform:translateX(-50%);
+}

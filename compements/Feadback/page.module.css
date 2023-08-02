@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.icon{
+    height: 20px;
+    color: yellow;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.description{
+    width: 90%;
+    color: dimgrey;
+    font-size: 18px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 600;
+}

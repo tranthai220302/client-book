@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.description{
+    width: 50%;
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,29 @@
+.continer{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.list_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 0 100px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.loading{
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}

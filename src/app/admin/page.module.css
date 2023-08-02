@@ -1,0 +1,116 @@
+.loading{
+    display: flex;
+    margin: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.title{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.list_item{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.button{
+    margin-right: 1300px;
+    font-size: 18px;
+    font-weight: 700;
+    color: chocolate;
+    padding: 5px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: bisque;
+}
+/* CSS */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: gray;
+    position: absolute; /* Đặt position là absolute */
+    top: 50%; /* Đặt top là 50% để form nằm ở giữa theo trục y */
+    left: 50%; /* Đặt left là 50% để form nằm ở giữa theo trục x */
+    transform: translate(-50%, -50%); /* Đặt transform để căn giữa form chính xác */
+    z-index: 2;
+  }
+  
+  .to {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.products{
+    position: relative;
+}
+.x{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
+.x:hover{
+    color: white;
+}
+.add{
+    background-color: rgba(1, 1, 1, 0.6);
+    height: 130vh; /* Chiều cao bằng 100% kích thước chiều cao của màn hình */
+  width: 100vw;
+    position: absolute; /* Đặt position là absolute */
+    top: 50%; /* Đặt top là 50% để form nằm ở giữa theo trục y */
+    left: 50%; /* Đặt left là 50% để form nằm ở giữa theo trục x */
+    transform: translate(-50%, -50%); /* Đặt transform để căn giữa form chính xác */
+    z-index: 2;
+}
+.list_item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  margin: 0 100px;
+}
+.action{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.action_item{
+  padding: 5px 8px;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.action_item:hover{
+  background-color: black;
+}
